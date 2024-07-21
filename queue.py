@@ -18,6 +18,13 @@ class Queue:
         print(f"Размер очереди: {len(self.items)}")
         return len(self.items)
 
+    def print_queue(self):
+        if self.is_empty():
+            print("Очередь пуста")
+        else:
+            print("Текущая очередь:", " -> ".join(map(str, self.items)))
+
+
 queue = Queue()
 print(queue.is_empty())
 
@@ -30,3 +37,7 @@ print(queue.is_empty())
 queue.size()
 queue.dequeue()
 queue.size()
+
+queue.enqueue("действие 5")
+queue.enqueue("действие 6")
+queue.print_queue()
