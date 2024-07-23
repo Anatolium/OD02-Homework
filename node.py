@@ -6,7 +6,7 @@ class Node:
 
 def insert(root, key):
     if root is None:
-        print(f"New node with val = {key}")
+        print(f"Добавлен узел со значением {key}")
         return Node(key)
     else:
         if root.val < key:
