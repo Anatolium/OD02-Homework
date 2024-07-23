@@ -85,6 +85,10 @@ print()
 queue.enqueue("Задача 5")
 queue.enqueue("Задача 6")
 queue.enqueue("Задача 7")
-queue.dequeue()
+queue.print_queue()
+print()
+
+for _ in range(3):
+    queue.dequeue()
 queue.print_queue()
 queue.get_size()
