@@ -36,4 +36,4 @@ my_node = insert(my_node, 98)
 my_node = insert(my_node, 84)
 
 print("Дерево:")
-print_tree(my_node)  # Вывод: 30 45 56 60 70 73 84 89 98
+print_tree(my_node)
