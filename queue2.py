@@ -34,7 +34,7 @@ class Queue:
         # Если удалили последний элемент
         if self.front is None:
             self.rear = None
-        print(f"Элемент \'{value}\' удален из очереди")
+        print(f"Элемент \'{value}\' удалён из очереди")
         return value
 
     def peek(self):
