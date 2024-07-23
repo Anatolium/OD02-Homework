@@ -16,7 +16,7 @@ class Queue:
             while self.inbox:
                 self.outbox.append(self.inbox.pop())
         if self.outbox:
-            print(f"Элемент \'{self.outbox[-1]}\' удален из очереди")
+            print(f"Элемент \'{self.outbox[-1]}\' удалён из очереди")
             return self.outbox.pop()
         else:
             return None
