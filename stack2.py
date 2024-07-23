@@ -64,6 +64,7 @@ stack.push(3)
 stack.print_stack()
 stack.get_size()
 print()
+
 stack.peek()
 stack.pop()
 stack.peek()
